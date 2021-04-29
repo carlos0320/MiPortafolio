@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    margin:0;
+}
+
+/* header */
+header{
+    width: 100vw;
+    background-image: url('../assets/NuevaImagen-header.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 614px;
+    position: relative;    
+}
+
+.button__red{
+    background-color: #D90062;
+    color: white;
+    border-radius: 5px;
+    height: 38px;
+}
+
+.content{
+    width: 100%;
+    height: inherit;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.content h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.content .button__red{
+    margin-top: 9px;
+    width: 170px;   
+}
