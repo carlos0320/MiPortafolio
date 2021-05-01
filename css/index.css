@@ -10,6 +10,9 @@ body{
 h1{
     margin:0;
 }
+h2{
+    height: 49px;
+}
 
 /* header */
 header{
@@ -90,4 +93,41 @@ header{
     margin-left:40px;
     text-transform: uppercase;
     margin-bottom: 32px;
+}
+
+/* Interesado */
+.interesado__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    text-align: center;
+    padding: 0 2em 0 1em;
+}
+.interesado-img {
+    width: 32px;
+    height: 32px;
+    padding-top: 1em;
+}
+.interesado-h2 {
+    text-align: center;
+}
+.interesado__card h5{
+    font-size: 15px;
+}
+.interesado-p {
+    height: 11px;
+    font-weight: 400;
+}
+.interesado-imgSocialMedia {
+    width: 121px;
+    height: 12px;
+}
+.interesado__card {
+    margin: 1em;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.interesado__card:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
