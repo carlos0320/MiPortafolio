@@ -91,3 +91,49 @@ header{
     text-transform: uppercase;
     margin-bottom: 32px;
 }
+
+/* ofrezco */
+.contentOfrezco{
+    padding-top: 50px;
+    background: #F3F3F3;
+}
+.contentOfrezco__tittle h1{
+    text-align: center;
+}
+
+.contentOfrezco__tittle hr{
+    height: 2px;
+    width:20%;
+    background-color: #D90062;
+}
+
+.contectOfrezco__contenido{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 20px;
+    padding: 30px 10px 0 10px;
+}
+
+    .contectOfrezco__contenido--card h1{
+    text-align: center;
+    padding-bottom: 5px;
+}
+    .contectOfrezco__contenido--card p{
+        text-align: center;
+    }
+
+
+    .contectOfrezco__contenido--card img{
+        padding-bottom: 3px;
+        display:block;
+        margin:auto;
+        }
+
+
+        .contentOfrezco__tittle--linea {
+            border-top: 1px solid  #D90062;
+            height: 2px;
+            max-width: 240px;
+            padding: 0;
+            margin: 2px auto 0 auto;
+          }
