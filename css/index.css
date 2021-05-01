@@ -50,7 +50,8 @@ header{
 
 .description {
     display: flex;
-    padding: 3rem 2rem 3rem 2rem;
+    margin: 0;
+    padding: 3rem 4rem 3rem 1rem;
     flex-wrap: wrap;
 }
 
@@ -78,8 +79,14 @@ header{
 }
 
 
-.description-image {
+.description-center__imagen {
     filter: grayscale(100%);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left-text {
@@ -190,9 +197,6 @@ header{
     width: 40%;
     height: 50%;
 }
-
-
-
 
 ul {
     font-size: 12px;
