@@ -30,8 +30,7 @@ header{
     border:none;
 }
 
-.content{
-    width: 100%;
+.header__content{    
     height: inherit;
     color: #FFFFFF;
     display: flex;
@@ -40,12 +39,12 @@ header{
     flex-direction: column
 }
 
-.content h1{
+.header__content h1{
     font-weight: bold;
     font-size: 32px;
 }
 
-.content .button__red{
+.header__content .button__red{
     margin-top: 9px;
     width: 170px;   
 }
@@ -86,7 +85,7 @@ header{
     padding: 8px;
 }
 
-.contacts .button__red{
+.contacts__btn{
     margin-left:40px;
     text-transform: uppercase;
     margin-bottom: 32px;
