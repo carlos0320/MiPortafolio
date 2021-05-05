@@ -228,16 +228,45 @@ ul {
 #li-UX {
     padding-top: 15px;
 }
+/* este es mi espacio de trabajo */
+
+.section-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    width: 394px;
+    margin: 0 auto;
+    border-bottom: 1px solid #D90062;    
+    border-top: 1px solid #D90062;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.image-container img {
+    width: 33%;
+
+}
 
 /* contacts */
 .contacts{
     width: 80%;
     margin: 0 auto;
     margin-top: 48px;
-    box-shadow: 9.77778px 9.77778px 39.1111px rgba(0, 0, 0, 0.25);
+    box-shadow: 9.77778px 9.77778px 39.1111px rgba(22, 17, 17, 0.25);
 }
 
-.contacts form{
+.contacts form{             
     padding: 93px 40px 16px 40px;
     display: grid;
     grid-template-columns: 1fr;
